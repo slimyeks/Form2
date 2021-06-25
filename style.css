@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital,wght@0,400;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  cursor: auto;
+}
+:root {
+  --primary-color: #fffacd;
+  --secondary-color: #fff;
+  --grey: #2f4f4f;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.container {
+  max-width: 620px;
+  margin: auto;
+  border: 1px solid var(--grey);
+  border-radius: 25px;
+  padding: 35px;
+  background-color: var(--secondary-color);
+}
+
+span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+p {
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: var(--grey);
+}
+
+h1 {
+  margin-bottom: 1px;
+}
+
+.form-title {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  line-height: 1.2;
+  line-break: 2;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+}
+
+label {
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: var(--grey);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.form2,
+.form3 {
+  margin-top: 20px;
+  border: 1px solid var(--grey);
+  padding: 20px;
+  font-size: 18px;
+}
+
+textarea {
+  width: 80%;
+  resize: vertical;
+}
+
+.button {
+  background-color: red;
+  padding: 5px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "roboto", sans-serif;
+  margin-top: 20px;
+  text-align: centercenter;
+}
+
+.submit-button {
+  text-align: center;
+}
